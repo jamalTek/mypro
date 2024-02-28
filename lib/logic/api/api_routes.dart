@@ -1,0 +1,25 @@
+const String apiRegister = 'register';
+const String apiLogin = 'login';
+const String apiLoginFacebook = 'login/facebook';
+const String apiLoginGoogle = 'login/google';
+const String apiLoginTwitter = 'login/twitter';
+const String apiForgotPassword = 'passwords/forgot';
+
+const String apiGoogle = 'login/google';
+const String apFacebook = 'login/facebook';
+const String apiTwitter = 'login/twitter';
+const String apiApple = 'login/apple';
+const String apiVirtuesOfDeedsCategories = 'scientific-contents/categories';
+const String apiVirtuesOfDeeds = 'scientific-contents';
+const String apiVirtuesOfDeedsSearch = 'scientific-contents/search';
+const String apiProphetBiographyCategories = 'prophet-biographies/categories';
+const String apiProphetBiography = 'prophet-biographies';
+const String apiProphetBiographySearch = 'prophet-biographies/search';
+const String apiSliders = 'banners';
+const String apiReminders = 'reminders';
+const String apiHabits = 'user/habbits';
+const String apiHabitsProgress = 'user/habbits/progress';
+const String apiFavorite = 'user/favorites';
+const String apiUser = 'user';
+const String apiValidateCode = 'passwords/validate-code';
+const String apiResetPassword = 'passwords/reset';

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "664786675879",
+    "project_id": "merath-alnabi-984b6",
+    "storage_bucket": "merath-alnabi-984b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664786675879:android:e29b96fe7d9005dac31382",
+        "android_client_info": {
+          "package_name": "com.arrawdah.meerath"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664786675879-56vvq9e29e8cpadriuiaki6a5d0dcili.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDZAjO7NEC-cFEht1_QrBSaWkFvgR5zR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664786675879-56vvq9e29e8cpadriuiaki6a5d0dcili.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
