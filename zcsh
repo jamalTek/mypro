@@ -1,0 +1,39 @@
+autoload -Uz compinit && compinit
+
+
+export PATH="$PATH:/Users/jamal/development/flutter2/bin"
+export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
+export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@7.4/sbin:$PATH"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+#---------------------------------------------------------------------#
+
+# Load the oh-my-zsh Git plugin
+plugins=(git)
+
+# Customize the prompt to display Git branch
+autoload -Uz vcs_info
+zstyle ':vcs_info:git*' formats '(%b)'
+precmd() {
+    vcs_info
+}
+
+setopt prompt_subst
+PROMPT='%F{cyan}%n@%m%f %F{green}%c%f%F{blue}${vcs_info_msg_0_}%f %# '
+
+# Define the appearance of the Git branch in the prompt
+zstyle ':vcs_info:*' enable git
+zstyle ':vcs_info:*' check-for-changes true
+zstyle ':vcs_info:*' stagedstr "%F{yellow}●%f"
+zstyle ':vcs_info:*' unstagedstr "%F{red}●%f"
+zstyle ':vcs_info:*' actionformats \
+  '%F{green}(%b|%a)%f'
+zstyle ':vcs_info:*' formats \
+  '%F{green}(%b|%a)%f'
+
+# Customize other prompt elements as needed
+
+
